@@ -6,12 +6,15 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 [![PostgreSQL](https://img.shields.io/badge/Neon_PGVector-Serverless-00E699.svg?style=flat&logo=postgresql&logoColor=black)](https://neon.tech)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
+[![Documentation](https://img.shields.io/badge/Docs-Complete_Technical_Blueprint-blue.svg?style=flat&logo=gitbook&logoColor=white)](docs/DOCUMENTATION.md)
 
 An enterprise-grade, privacy-first **Cognitive Scholar & Multi-Modal RAG Platform**. Transforms research papers, university textbooks, lecture recordings, and syllabus monographs into isolated vector memories, diagnostic active-recall quizzes, Socratic audio dialogues, examination papers, and technical schematics.
 
 ---
 
 ## 🏛️ System Architecture
+
+![AI Study Buddy Architecture](docs/assets/ai_study_buddy_architecture.jpg)
 
 ```mermaid
 graph TD
