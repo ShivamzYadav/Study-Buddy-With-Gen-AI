@@ -1,0 +1,77 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        // Light Mode: Editorial Alabaster & Deep Forest Green
+        alabaster: {
+          canvas: "#FAF8F5",
+          card: "#FFFFFF",
+          inset: "#F4EFE6",
+          border: "#E2DCD2",
+          divider: "#ECE5DA",
+          primary: "#0F281E",
+          secondary: "#244033",
+          muted: "#385547",
+          accent: "#185339",
+          accentHover: "#113E2A",
+          pill: "#E8EFEA",
+          pillBorder: "#C0D5C9",
+        },
+        // Dark Mode: Linear Obsidian & Electric Cyan / Mint / Amber
+        obsidian: {
+          canvas: "#050506",
+          elevated: "#0B0F17",
+          card: "#0E131F",
+          cardHover: "#141A29",
+          border: "rgba(255, 255, 255, 0.10)",
+          borderHover: "rgba(255, 255, 255, 0.20)",
+          primary: "#F8FAFC",
+          secondary: "#94A3B8",
+          muted: "#64748B",
+          cyan: "#06B6D4",
+          cyanHover: "#0891B2",
+          mint: "#10B981",
+          amber: "#F59E0B",
+        },
+        // Compatibility Mappings
+        main: "#FAF8F5",
+        "neo-white": "#FFFDF9",
+        "neo-black": "#112A1D",
+        "neo-purple": "#185339",
+        "neo-pink": "#F59E0B",
+        "neo-yellow": "#F4EFE6",
+        "neo-blue": "#06B6D4",
+        "neo-green": "#10B981",
+        "neo-red": "#EF4444",
+        primary: "#185339",
+        secondary: "#3D594B",
+        dark: "#050506",
+      },
+      fontFamily: {
+        sans: ["Figtree", "Inter", "sans-serif"],
+        serif: ['"EB Garamond"', "Georgia", "serif"],
+        garamond: ['"EB Garamond"', "Georgia", "serif"],
+        mono: ['"JetBrains Mono"', "monospace"],
+      },
+      boxShadow: {
+        neo: "0 4px 20px -2px rgba(20,53,39,0.08)",
+        "neo-sm": "0 2px 8px -1px rgba(20,53,39,0.06)",
+        "neo-lg": "0 12px 36px -4px rgba(20,53,39,0.12)",
+        "neo-xl": "0 20px 48px -6px rgba(20,53,39,0.16)",
+        "obsidian-glow": "0 0 32px rgba(6, 182, 212, 0.25)",
+        "obsidian-card": "0 8px 32px rgba(0, 0, 0, 0.4)",
+      },
+      borderRadius: {
+        sm: "6px",
+        md: "10px",
+        lg: "12px",
+        xl: "24px",
+        "2xl": "40px",
+      },
+    },
+  },
+  plugins: [],
+};
