@@ -185,5 +185,3 @@ The backend is configured with `render.yaml` for automated zero-downtime deploym
 
 ## 📄 License
 This project is licensed under the MIT License.
-#   S t u d y - B u d d y - W i t h - G e n - A I  
- 
